@@ -7,10 +7,10 @@ const cars = [
 ];
 
 // Cars newer than 1999
-// console.log(cars.filter(car => car.year < 1999));
+console.log(cars.filter(car => car.year < 1999));
 
 // All  Volvo’s
-//console.log(cars.filter(car => car.make === 'Volvo'));
+console.log(cars.filter(car => car.make === 'Volvo'));
 
 // All cars with a price below 5000
 console.log(cars.filter(car => car.price < 5000));
